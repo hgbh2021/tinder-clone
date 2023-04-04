@@ -1,0 +1,185 @@
+#title{
+    background-color: brown;
+    color: #fff;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 0 ;
+}
+.navbar-brand{
+    font-family: "Kurale","Ubuntu",monospace;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar{
+   padding:0 0 3rem;
+}
+
+.navbar-item{
+  padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif; 
+     font-size: 2.4rem;  
+     line-height: 1.5; 
+      font-weight: 800;
+}
+
+/* h2{
+    font-family: 'Montserrat', sans-serif; 
+     font-size: 2.2rem;  
+     line-height: 1.5; 
+      font-weight: 600;
+      margin: 5%;
+} */
+
+h3{
+    font-family:'Montserrat';
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+p{
+    font-size: small;
+    color:#8f8f8f;
+}
+.rotated {
+    
+    /* margin-bottom: 1.2rem; */
+  width: 290px;
+  height: 500px;
+    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    background-color: transparent;
+    
+   
+  }
+
+.dwnld{
+    font-size: medium;
+    margin:5% 3% 0 0%;
+   
+}
+
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+   
+    
+}
+
+.feature{
+    text-align: center;
+    padding: 5% 3% 0 5%;
+    
+}
+.icon{
+    color: #ef8271;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+    background-color: #ef6651;
+    color: #fff;
+    text-align: center;
+    
+
+}
+.carousel-item{
+    padding: 5% 10% ;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width:10%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.2rem;  
+    line-height: 1.5; 
+     font-weight: 600;
+     margin: 5%;
+}
+
+.nav-link{
+   font-weight: 400;
+
+}
+
+/* press */
+#press{
+    background-color: #ef6651;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 14%;
+    margin: 20px 20px 50px;
+   
+}
+
+#pricing{
+    margin : 5% 10%;
+}
+
+
+@media( max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .rotated{
+        margin-top: 1.8rem;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    padding: 7% 0 10%;
+    text-align: center;
+    background-color: #ff4c68;    
+    
+}
+.modified{
+    font-size: 3rem;
+    color: #fff; 
+    font-weight: 600;
+    
+}
+
+#footer {
+    padding: 4% 0 1%;
+    
+    text-align: center;
+    
+    
+}
+.futer{
+    color: rgb(156, 152, 152);
+    font-family: "Ubuntu",sans-serif;
+    font-size: 1rem;
+}
+.social{
+    margin: 20px 10px;
+}
